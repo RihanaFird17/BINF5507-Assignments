@@ -7,7 +7,7 @@ This project implements regression and classification models using the Heart Dis
 ## Data loading and Pre-processing
 
 ## Building Models
-# Regression Models
+### Regression Models
 
 
-# Classification Models
+### Classification Models
