@@ -39,10 +39,10 @@ R²: 0.5639
 RMSE: 72.5552
 
 ElasticNet Regression:
-R²: 0.2954
-RMSE: 92.2247
-Best Hyperparameters: alpha = 0.0464, l1_ratio = 1.0
-Best RMSE: 69.8036
+    R²: 0.2954
+    RMSE: 92.2247
+    Best Hyperparameters: alpha = 0.0464, l1_ratio = 1.0
+    Best RMSE: 69.8036
 
 Logistic Regression:
     Accuracy: 0.8152
@@ -58,6 +58,6 @@ k-NN Classifier:
 
 This project demonstrates how regression and classification models can be used to predict heart disease outcomes based on various health-related features. 
 
-While logistic regression performed best in terms of accuracy, F1 score, AUROC, and AUPRC; in the classification task, linear regression showed reasonable performance for predicting cholesterol levels. ElasticNet regression showed improvement after hyperparameter tuning. 
+Logistic regression performed best in terms of accuracy, F1 score, AUROC, and AUPRC. In the classification task, linear regression performed reasonably well in predicting cholesterol levels. ElasticNet regression improved after hyperparameter tuning. 
 
 The models thus provide valuable insights, and the evaluation metrics help in assessing their effectiveness in making predictions.
