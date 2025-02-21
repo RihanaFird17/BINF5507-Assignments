@@ -35,14 +35,14 @@ A k-NN classifier with Manhattan distance and 15 neighbors was also used for cla
 The evaluation metrics for both regression and classification models are summarized below:
 
 Linear Regression:
-    R²: 0.5639
-    RMSE: 72.5552
+R²: 0.5639
+RMSE: 72.5552
 
 ElasticNet Regression:
-    R²: 0.2954
-    RMSE: 92.2247
-    Best Hyperparameters: alpha = 0.0464, l1_ratio = 1.0
-    Best RMSE: 69.8036
+R²: 0.2954
+RMSE: 92.2247
+Best Hyperparameters: alpha = 0.0464, l1_ratio = 1.0
+Best RMSE: 69.8036
 
 Logistic Regression:
     Accuracy: 0.8152
