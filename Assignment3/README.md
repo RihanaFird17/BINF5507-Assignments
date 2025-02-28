@@ -20,17 +20,17 @@ This assignment compares three clustering algorithms: DBSCAN, k-Means, and Agglo
 ## Results
 Here are the silhouette scores for the clustering algorithms across the datasets:
 
-- **make_moons: **
+- **make_moons:**
   - **DBSCAN: 0.33
   - k-Means: 0.39
   - Agglomerative Clustering: 0.31**
   
-- **make_blobs: **
+- **make_blobs:**
   - **DBSCAN: 0.72
   - k-Means: 0.78
   - Agglomerative Clustering: 0.78**
 
-- **make_circles: **
+- **make_circles:**
   - **DBSCAN: 0.0043
   - k-Means: 0.38
   - Agglomerative Clustering: 0.35**
@@ -47,7 +47,7 @@ The ‘make_circles’ dataset silhouette score for DBSCAN is very low (0.0043).
 k-means and Agglomerative Clustering perform better here because they assume spherical clusters and can force clusters even when natural clusters are unclear. 
 
 ## Trade-offs
-- **DBSCAN: **
+- **DBSCAN:**
   - Good for complex shapes (moons)
   - Robust to noise
   - Sensitive to density variations (blobs) 
