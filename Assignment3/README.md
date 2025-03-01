@@ -5,7 +5,7 @@ This assignment compares three clustering algorithms: DBSCAN, k-Means, and Agglo
 ## Key Points
 - **DBSCAN**: Density-based algorithm, good for identifying clusters with arbitrary shapes and noise.
 - **k-Means**: A centroid-based algorithm that performs well on spherical clusters with similar densities.
-- **Agglomerative Clustering**: A hierarchical clustering method, useful for a range of clustering structures but computationally more expensive.
+- **Hierarchial (Agglomerative) Clustering**: A hierarchical clustering method, useful for a range of clustering structures but computationally more expensive.
 
 ## Datasets
 - **make_moons**: Crescent-shaped clusters.
@@ -21,19 +21,19 @@ This assignment compares three clustering algorithms: DBSCAN, k-Means, and Agglo
 Here are the silhouette scores for the clustering algorithms across the datasets:
 
 - **make_moons:**
-  - **DBSCAN: 0.33
+  - DBSCAN: 0.33
   - k-Means: 0.39
-  - Agglomerative Clustering: 0.31**
+  - Agglomerative Clustering: 0.31
   
 - **make_blobs:**
-  - **DBSCAN: 0.72
+  - DBSCAN: 0.72
   - k-Means: 0.78
-  - Agglomerative Clustering: 0.78**
+  - Agglomerative Clustering: 0.78
 
 - **make_circles:**
-  - **DBSCAN: 0.0043
+  - DBSCAN: 0.0043
   - k-Means: 0.38
-  - Agglomerative Clustering: 0.35**
+  - Agglomerative Clustering: 0.35
 
 ## Performance Comparison
 ### DBSCAN Outperformance: 
