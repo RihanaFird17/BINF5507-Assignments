@@ -12,7 +12,7 @@ Description: Clinical data for head and neck cancer patients, including demograp
 # Data Preprocessing:
 - Explored the dataset to identify missing values, data types, and distributions of key variables.
 - Handled missing values by imputing the median for 'Smoking PY' and the mode for 'ECOG PS'.
-## Feature Engineering:
+### Feature Engineering:
 - Created event indicator ('Event') based on the 'Status' column (Dead = 1, Alive = 0).
 - Defined survival time ('Survival_Time') using the 'Length FU' (Length of Follow-Up) column.
 - Cleaned and standardized the 'Tx Modality' column.
