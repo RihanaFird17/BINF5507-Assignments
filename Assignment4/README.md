@@ -44,18 +44,18 @@ Description: Clinical data for head and neck cancer patients, including demograp
 - Covariates included: 'Age' (binned and mapped), 'Sex', and 'Smoking PY'.
 - Assessed model assumptions.
 - Cox Model summary:
--- **Concordance Index:** **0.65**
--- **Partial AIC:** 15,594.26
--- **Log-likelihood ratio test:** 356.11 (p < 0.005)
--- **Significant Variables:**
---- Age (HR: 1.04, p < 0.005)
---- Smoking PY (HR: 1.01, p < 0.005)
+  - **Concordance Index:** **0.65**
+  - **Partial AIC:** 15,594.26
+  - **Log-likelihood ratio test:** 356.11 (p < 0.005)
+  - **Significant Variables:**
+    - Age (HR: 1.04, p < 0.005)
+    - Smoking PY (HR: 1.01, p < 0.005)
 
 ## 3. Random Survival Forests (RSF) and Comparative Performance
 - Trained an RSF model to predict survival probabilities and compared predictive performance with Cox regression.
 - C-index Comparison:
--- Cox Model: **0.654**
--- RSF Model: **0.685** (Higher predictive power)
+  - Cox Model: **0.654**
+  - RSF Model: **0.685** (Higher predictive power)
 
 # Key Findings:
 - **Treatment Modality:** ChemoRT is associated with superior survival outcomes compared to RT_alone and RT + EGFRI, as indicated by Kaplan-Meier curves and log-rank tests.
